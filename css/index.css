@@ -187,6 +187,12 @@ a {
   border: 1px solid #eeeeee;
   margin: 35px 3px;
 }
+.footer .footer_hd ul li div[class^='box'] .li_content:nth-of-type(1):hover em {
+  background-position: -205px -70px;
+}
+.footer .footer_hd ul li div[class^='box'] .li_content:nth-of-type(2):hover em {
+  background-position: -300px -70px;
+}
 .footer .footer_hd ul li div[class^='box'] .li_content em {
   display: block;
   width: 36px;
@@ -202,11 +208,17 @@ a {
   color: #999999;
   font-size: 14px;
 }
-.footer .footer_hd ul li .box2 div:nth-child(1) em {
-  background-position: -205px -12px;
+.footer .footer_hd ul li .box2 .li_content:nth-of-type(1) em {
+  background-position: -250px -12px;
 }
-.footer .footer_hd ul li .box2 div:nth-child(2) em {
+.footer .footer_hd ul li .box2 .li_content:nth-of-type(2) em {
   background-position: -350px -12px !important;
+}
+.footer .footer_hd ul li .box2 .li_content:nth-of-type(1):hover em {
+  background-position: -205px -12px !important;
+}
+.footer .footer_hd ul li .box2 .li_content:nth-of-type(2):hover em {
+  background-position: -300px -12px !important;
 }
 .footer .footer_hd ul li .box3 .erweima {
   width: 116px;
@@ -344,15 +356,14 @@ a {
 }
 .banner ul li::after {
   position: absolute;
-  right: 19px;
-  top: 19px;
+  right: 8px;
+  top: 16px;
   content: '';
   display: block;
-  width: 10px;
-  height: 10px;
-  border-right: 1px solid #fff;
-  border-bottom: 1px solid #fff;
-  transform: rotate(-45deg);
+  width: 20px;
+  height: 20px;
+  background: url(../images/sprites.png) no-repeat -36px -107px;
+  background-size: 400px;
 }
 .banner ul li a {
   color: #fff;
@@ -399,14 +410,13 @@ a {
 .popular .hd a::after,
 .new_goods .hd a::after {
   position: absolute;
-  right: 2px;
-  top: 4px;
+  right: -8px;
+  top: 0;
   content: '';
-  width: 10px;
-  height: 10px;
-  border-right: 1px solid #999;
-  border-bottom: 1px solid #999;
-  transform: rotate(-45deg);
+  width: 20px;
+  height: 20px;
+  background: url(../images/sprites.png) no-repeat 0 -107px;
+  background-size: 400px;
 }
 .popular .bd ul li,
 .new_goods .bd ul li {
@@ -556,14 +566,13 @@ section[class^='fresh_goods'] .hd .more {
 }
 section[class^='fresh_goods'] .hd .more::after {
   position: absolute;
-  right: 2px;
-  top: 4px;
+  right: -8px;
+  top: 0;
   content: '';
-  width: 10px;
-  height: 10px;
-  border-right: 1px solid #999;
-  border-bottom: 1px solid #999;
-  transform: rotate(-45deg);
+  width: 20px;
+  height: 20px;
+  background: url(../images/sprites.png) no-repeat 0 -107px;
+  background-size: 400px;
 }
 section[class^='fresh_goods'] .bd {
   margin-top: 34px;
@@ -659,17 +668,17 @@ section[class^='fresh_goods'] .bd ul li .mask .find a {
   top: 45px;
   color: #999;
   padding-right: 20px;
+  margin-top: 12px;
 }
 .topic_goods .hd .more::after {
   position: absolute;
-  right: 2px;
-  top: 4px;
+  right: -8px;
+  top: 0;
   content: '';
-  width: 10px;
-  height: 10px;
-  border-right: 1px solid #999;
-  border-bottom: 1px solid #999;
-  transform: rotate(-45deg);
+  width: 20px;
+  height: 20px;
+  background: url(../images/sprites.png) no-repeat 0 -107px;
+  background-size: 400px;
 }
 .topic_goods .bd ul {
   display: flex;
